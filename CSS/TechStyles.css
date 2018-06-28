@@ -23,14 +23,33 @@ h2 {
   background-color: white;
 }
 
+a {
+  background-color: inherit;
+  color: inherit;
+  font-size: 20px;
+  display: block;
+}
+
+div {
+  border: #1500ff 3px solid;
+  color: black;
+  background-color: white;
+}
+
+p {
+  max-width: 150px;
+  background-color: inherit;
+  color: inherit;
+}
+
 /* Here is the positioning stuff for the list of Tech */
 
 /* left */
 
 .Github {
-    position: absolute;
-    top: 8px;
-    left: 16px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 .Trello {
   position: absolute;
