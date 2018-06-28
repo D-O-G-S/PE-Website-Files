@@ -1,0 +1,68 @@
+#Tech {
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  margin: auto;
+}
+body {
+  background-image: url(DogPlaceHolder.jpg);
+  color: black;
+}
+#Footer {
+  margin: 10px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%,0%);
+  -ms-transform: translate(-50%,0%)
+}
+
+h2 {
+  background-color: white;
+}
+
+/* Here is the positioning stuff for the list of Tech */
+
+/* left */
+
+.Github {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+.Trello {
+  position: absolute;
+  bottom: 275px;
+  left: 16px;
+}
+.Internet {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* right */
+
+.Atom {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.Slack {
+  position: absolute;
+  bottom: 275px;
+  right: 16px;
+}
+.Appinventor {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+/* Mid-Top */
+.git_page {
+  position: absolute;
+  bottom: 350px;
+  right: 600px;
+}
