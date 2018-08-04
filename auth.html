@@ -2,51 +2,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Sample FirebaseUI App</title>
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-auth.js"></script>
     <script>
-      window.location.assign("http://dogs-pe.firebaseapp.com");
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCugvimq8CB4c1Jo2P4n-AHkzGq3OYYq_s",
-        authDomain: "dogs-pe.firebaseapp.com",
-        databaseURL: "https://dogs-pe.firebaseio.com",
-        projectId: "dogs-pe",
-        storageBucket: "dogs-pe.appspot.com",
-        messagingSenderId: "877645712541"
-      };
-      firebase.initializeApp(config);
-    </script>
-    <script src="https://cdn.firebase.com/libs/firebaseui/3.2.0/firebaseui.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.2.0/firebaseui.css" />
-    <script type="text/javascript">
-      // FirebaseUI config.
-      var uiConfig = {
-        signInSuccessUrl: 'https://dogs-pe.firebaseapp.com',
-        signInOptions: [
-          // Leave the lines as is for the providers you want to offer your users.
-          firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-          firebase.auth.EmailAuthProvider.PROVIDER_ID,
-        ],
-        // Terms of service url.
-        tosUrl: 'https://dogs-pe.firebaseapp.com',
-        // Privacy policy url.
-        privacyPolicyUrl: 'https://dogs-pe.firebaseapp.com'
-      };
-
-      // Initialize the FirebaseUI Widget using Firebase.
-      var ui = new firebaseui.auth.AuthUI(firebase.auth());
-      // The start method will wait until the DOM is loaded.
-      ui.start('#firebaseui-auth-container', uiConfig);
-    </script>
-  </head>
-  <body>
-    <!-- The surrounding HTML is left untouched by FirebaseUI.
-         Your app may use that space for branding, controls and other customizations.-->
-    <h1>Welcome to DPE</h1>
-    <div id="firebaseui-auth-container"></div>
-  </body>
+      window.location.assign("https://dogs-pe.firebaseapp.com")
 </html>
-<!-- -->
